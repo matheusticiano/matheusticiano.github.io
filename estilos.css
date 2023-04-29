@@ -16,8 +16,6 @@ body {
 .contenedor {
 	width: 90%;
 	max-width: 1000px;
-    background-size: cover;
-    background-position:center;
 	margin-left: auto; 
 	margin-right: auto;
     margin-top: 15px;
