@@ -116,20 +116,14 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   color: #ffffff;
-  background-color: #555555;
-  border: none;
+  border: 1px solid #555555;
   animation: parpadeo 2s linear infinite;
   transition: .7s ease;
-  position: relative;
 }
 
 .sobre .btn-hab:hover {
-  background-color: #001d84;
+  border: 1px solid #001d84;
   animation: none;
-}
-
-.sobre .btn-hab i {
-  margin-right: 10px;
 }
 
 .sobre .btn-hab .btn-text {
