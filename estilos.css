@@ -126,24 +126,6 @@ body {
   animation: none;
 }
 
-.sobre .btn-hab .btn-text {
-  position: absolute;
-  top: -20px;
-  left: 50%;
-  transform: translateX(-50%);
-  padding: 5px;
-  font-size: 12px;
-  opacity: 0;
-  transition: .3s ease;
-  pointer-events: none;
-}
-
-.sobre .btn-hab:hover .btn-text {
-  opacity: 1;
-}
-
-
-
 @keyframes parpadeo  {
     0%, 41%, 45%, 47%, 49.5%, 100%  { 
         opacity: 1;
