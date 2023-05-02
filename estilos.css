@@ -109,6 +109,49 @@ body {
 }
 
 
+.sobre .btn-hab {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 25px 0;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #555555;
+  border: none;
+  animation: parpadeo 2s linear infinite;
+  transition: .7s ease;
+  position: relative;
+}
+
+.sobre .btn-hab:hover {
+  background-color: #001d84;
+  animation: none;
+}
+
+.sobre .btn-hab i {
+  margin-right: 10px;
+}
+
+.sobre .btn-hab .btn-text {
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 5px;
+  background-color: #001d84;
+  color: #ffffff;
+  font-size: 12px;
+  opacity: 0;
+  transition: .3s ease;
+  pointer-events: none;
+}
+
+.sobre .btn-hab:hover .btn-text {
+  opacity: 1;
+}
+
+
+
 @keyframes parpadeo  {
     0%, 41%, 45%, 47%, 49.5%, 100%  { 
         opacity: 1;
