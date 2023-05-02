@@ -178,17 +178,19 @@ body {
 
   .button-hab {
     position: relative;
-    margin: 20px;
-    border: none;
-    background-color: #007bff;
-    color: #fff;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
+    display: inline-block;
+    margin-right: 20px;
+    padding-right: 30px;
+    color: #333;
+    text-decoration: none;
   }
   
   .button-hab i {
-    margin-right: 10px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    font-size: 20px;
   }
   
   .button-hab-text {
@@ -208,8 +210,3 @@ body {
   .button-hab:hover .button-hab-text {
     opacity: 1;
   }
-
-
-
-
-  
