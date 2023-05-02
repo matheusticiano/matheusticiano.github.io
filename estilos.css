@@ -176,7 +176,7 @@ body {
     text-align: center;
   }
 
-  .button-hab {
+  .sobre .button-hab {
     position: relative;
     display: inline-block;
     margin-right: 20px;
@@ -185,7 +185,7 @@ body {
     text-decoration: none;
   }
   
-  .button-hab i {
+  .sobre .button-hab i {
     position: absolute;
     top: 50%;
     right: 0;
@@ -193,7 +193,7 @@ body {
     font-size: 20px;
   }
   
-  .button-hab-text {
+  .sobre .button-hab-text {
     position: absolute;
     top: 0;
     left: 50%;
@@ -207,6 +207,6 @@ body {
     transition: opacity 0.2s ease-in-out;
   }
   
-  .button-hab:hover .button-hab-text {
+  .sobre .button-hab:hover .button-hab-text {
     opacity: 1;
   }
