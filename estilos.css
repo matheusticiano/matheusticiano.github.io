@@ -175,38 +175,38 @@ body {
     font-weight: bold;
     text-align: center;
   }
+#sobre .habilidades .button-hab {
+  position: relative;
+  display: inline-block;
+  margin-right: 20px;
+  padding-right: 30px;
+  color: #333;
+  text-decoration: none;
+}
 
-  .sobre .button-hab {
-    position: relative;
-    display: inline-block;
-    margin-right: 20px;
-    padding-right: 30px;
-    color: #333;
-    text-decoration: none;
-  }
-  
-  .sobre .button-hab i {
-    position: absolute;
-    top: 50%;
-    right: 0;
-    transform: translateY(-50%);
-    font-size: 20px;
-  }
-  
-  .sobre .button-hab-text {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    opacity: 0;
-    background-color: #333;
-    color: #fff;
-    padding: 5px;
-    border-radius: 5px;
-    font-size: 12px;
-    transition: opacity 0.2s ease-in-out;
-  }
-  
-  .sobre .button-hab:hover .button-hab-text {
-    opacity: 1;
-  }
+#sobre .habilidades .button-hab i {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  font-size: 20px;
+}
+
+#sobre .habilidades .button-hab-text {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  background-color: #333;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 12px;
+  transition: opacity 0.2s ease-in-out;
+}
+
+#sobre .habilidades .button-hab:hover .button-hab-text {
+  opacity: 1;
+}
+
