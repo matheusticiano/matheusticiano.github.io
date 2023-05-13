@@ -40,7 +40,7 @@ body {
     min-height: fit-content;
 }
 
-.nav-bar  {
+.nav-bar {
     display: flex;
     margin-bottom: 20px;
     flex-wrap: wrap;
@@ -49,17 +49,19 @@ body {
 .nav-bar ul {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .nav-bar li {
     list-style: none;
     display: inline-block;
+    margin-bottom: 20px;
 }
 
-.nav-bar li img{
+.nav-bar li img {
     list-style: none;
     display: inline-block;
-    margin-right: 200px;
+    margin-right: 100px;
 }
 
 .nav-bar li a {
@@ -103,39 +105,31 @@ body {
     font-weight: 700;
 }
 
-.sobre .btn-link {
+.btn-link {
     display: inline-block;
+    font-size: 70px;
     padding: 10px 20px;
-    margin: 25px 0;
+    margin: 25px 25px;
     text-transform: uppercase;
     text-decoration: none;
     color: #ffffff;
     border: 1px solid #555555;
-    animation: parpadeo 2s linear infinite;
-    transition: .7s ease;
 }
 
-.sobre .btn-link:hover {
+.btn-link:hover {
     border: 1px solid #001d84;
     animation: none;
 }
-
-
-.sobre .btn-hab {
-    display: inline-block;
-    padding: 10px 20px;
-    margin: 25px 0;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: #ffffff;
-    border: 1px solid #555555;
-    animation: parpadeo 2s linear infinite;
-    transition: .7s ease;
+.sociais h2 {
+    margin: 100px 25px 50px 25px;
+    text-align: center;
 }
 
-.sobre .btn-hab:hover {
-    border: 1px solid #001d84;
-    animation: none;
+.sociais .botoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 @keyframes parpadeo {
@@ -158,13 +152,13 @@ body {
     }
 }
 
-.card-wrapper {
+.projetos .card-wrapper {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.card {
+.projetos .card-wrapper .card {
     background-color: #000000;
     text-align: center;
     border: 1px solid #565555;
@@ -179,14 +173,14 @@ body {
     justify-content: center;
 }
 
-.card h2 {
+.projetos .card-wrapper .card h2 {
     font-size: 24px;
     margin: 0 0 10px 0;
     height: 100px;
     overflow: hidden;
 }
 
-.card img {
+.projetos .card-wrapper .card img {
     display: block;
     height: 250px;
     /* Defina aqui a altura fixa para a imagem */
@@ -197,7 +191,7 @@ body {
     margin-bottom: 10px;
 }
 
-.card p {
+.projetos .card-wrapper .card p {
     font-size: 16px;
     line-height: 1.5;
     margin: 0;
@@ -206,7 +200,7 @@ body {
     overflow: hidden;
 }
 
-.card a {
+.projetos .card-wrapper .card a {
     display: block;
     font-size: 18px;
     margin-top: 10px;
@@ -219,7 +213,7 @@ body {
     padding: 10px;
 }
 
-.card a:hover {
+.projetos .card-wrapper .card a:hover {
     background-color: #0062cc;
 }
 
@@ -228,9 +222,31 @@ body {
 .projetos h2 {
     font-weight: bold;
     text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 
 .flex-container {
     display: flex;
+}
+
+.skills .botes-hab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.skills .botes-hab i {
+    font-size: 70px;
+    margin: 30px 55px 100px 55px;
+}
+
+.skills h2 {
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
 }
